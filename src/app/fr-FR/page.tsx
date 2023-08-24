@@ -24,7 +24,7 @@ import {
     Twitter,
     GithubBlack,
 } from '@/utils/Images';
-import './page.css';
+import '.././page.css';
 import Card from '@/components/Card';
 import Headings from '@/components/Headings';
 export default function Home() {
@@ -47,9 +47,8 @@ function Header() {
             <div className="hero">
                 <div className="hero-text-box">
                     <h1>
-                        Hello 👋 I&apos;m Rodolphe, a<br />
-                        <span className="role">Web </span>
-                        developer
+                        Hello 👋 Je suis Rodolphe, <br />
+                        développeur <span className="role">Web </span>
                     </h1>
                     <TechStack />
                     <div className="cta-box">
@@ -65,7 +64,7 @@ function Header() {
                                     height={24}
                                     loading="eager"
                                 />
-                                <p>Download my CV</p>
+                                <p>Télécharger mon CV</p>
                             </div>
                         </Link>
                     </div>
@@ -93,7 +92,7 @@ function Navigation() {
                 priority
             />
             <Link className="btn-primary btn-nav" href="#contact">
-                Work with me
+                Collaborons !
             </Link>
         </nav>
     );
@@ -144,40 +143,25 @@ function Services() {
         <section className="container">
             <Headings
                 secondary="services"
-                tertiary="Empowering Your Online Success with Tailored Web Solutions"
-                text=" As a dedicated web developer, I offer a range of services to
-                    help businesses and individuals establish a strong online
-                    presence and deliver exceptional digital experiences."
+                tertiary="Renforcez votre succès en ligne grâce à des solutions web sur mesure"
+                text="En tant que développeur web dévoué, j'offre une gamme de services pour aider les entreprises et les particuliers à établir une présence en ligne solide et à offrir des expériences numériques exceptionnelles."
             />
             <div className="services-details">
                 <Card
                     image={Responsive}
-                    title="Responsive Design"
-                    text="In today's mobile-driven world, having a responsive
-                        website is non-negotiable. I ensure that your site
-                        adapts seamlessly to various screen sizes, providing an
-                        optimal user experience for everyone, whether
-                        they're on a desktop, tablet, or smartphone."
+                    title="Design adaptatif"
+                    text="Dans le monde actuel axé sur la mobilité, posséder un site web adaptatif est incontournable. J'assure que votre site s'adapte en toute fluidité à différentes tailles d'écran, offrant ainsi une expérience utilisateur optimale à tous, que ce soit sur un ordinateur de bureau, une tablette ou un smartphone."
                 />
                 <Card
                     className="card-blue"
                     image={Maintenance}
-                    title="Maintenance and Support"
-                    text="My commitment to your project doesn't end after the
-                    launch. I offer ongoing maintenance and support services
-                    to keep your website running smoothly. From regular
-                    updates to addressing any issues that may arise,
-                    I've got your back."
+                    title="Maintenance et Assistance"
+                    text="Mon engagement envers votre projet ne se termine pas après le lancement. Je propose des services de maintenance continue et d'assistance pour maintenir le bon fonctionnement de votre site web. Des mises à jour régulières à la résolution des problèmes qui pourraient survenir, je suis là pour vous soutenir."
                 />
                 <Card
                     image={Web}
-                    title="Web Development"
-                    text="I excel in front-end development, turning design
-                    concepts into pixel-perfect, interactive interfaces.
-                    With a keen eye for detail and a passion for creating
-                    user-friendly experiences, I ensure that your website
-                    not only looks great but also functions flawlessly
-                    across all devices."
+                    title="Développement Web"
+                    text="J'excelle dans le développement front-end, transformant les concepts de design en interfaces interactives parfaitement alignées sur les pixels. Doté d'un sens aigu du détail et animé par une passion pour la création d'expériences conviviales, je m'assure que votre site web a non seulement un aspect attrayant, mais fonctionne également de manière impeccable sur tous les appareils."
                 />
             </div>
         </section>
@@ -214,7 +198,7 @@ function About() {
             </div>
             <div className="about-flex-2">
                 <div className="about-box">
-                    <h2 className="about-title">About Me</h2>
+                    <h2 className="about-title">À Propos de Moi</h2>
                     <div className="tag">
                         <Image
                             src={Check}
@@ -222,20 +206,22 @@ function About() {
                             width={24}
                             height={24}
                         />
-                        Available for work
+                        Disponible pour travailler
                     </div>
                     <p className="about-text">
-                        I believe that great web development is more than just
-                        writing code; it&apos;s about understanding the
-                        end-users, leveraging the latest technologies, and
-                        crafting seamless user experiences. <br />I specialize
-                        in front-end development, including HTML, CSS, and
-                        JavaScript, and I am constantly expanding my skill set
-                        to stay up-to-date with emerging web technologies.
+                        Je crois que le développement web de qualité va au-delà
+                        de la simple rédaction de code ; il s&apos;agit de
+                        comprendre les utilisateurs finaux, de tirer parti des
+                        dernières technologies et de créer des expériences
+                        utilisateur fluides. <br />
+                        Je me spécialise dans le développement front-end, y
+                        compris HTML, CSS et JavaScript, et j&apos;élargis
+                        constamment mes compétences pour rester à jour avec les
+                        nouvelles technologies web émergentes.
                     </p>
                 </div>
                 <div className="project-box">
-                    <p className="projects-title">Latest Projects</p>
+                    <p className="projects-title">Derniers Projets</p>
 
                     <div className="project">
                         <Link
@@ -279,18 +265,23 @@ function Skills() {
     return (
         <section className="container">
             <Headings
-                secondary="technical proficiencies"
-                tertiary="Mastering the Digital Craft: Harnessing Cutting-Edge Technologies to Craft Immersive Web Experiences."
+                secondary="
+                Compétences Techniques"
+                tertiary="
+                Maîtrise de l'Art Numérique : Exploiter les Technologies de Pointe pour Créer des Expériences Web Immersives."
             />
             <div className="skills">
                 <div className="skill">
                     <div className="skill-text-box">
-                        <p className="skill-title">Adaptability And Learning</p>
+                        <p className="skill-title">
+                            Adaptabilité et Apprentissage
+                        </p>
                         <p className="skill-text">
-                            The dynamic nature of web development inspires me to
-                            keep learning and adapting to emerging technologies.
-                            I stay updated with the latest trends to provide
-                            cutting-edge solutions to my clients.
+                            La nature dynamique du développement web
+                            m&apos;inspire à continuer d&apos;apprendre et de
+                            m&apos;adapter aux technologies émergentes. Je reste
+                            informé des dernières tendances pour offrir des
+                            solutions de pointe à mes clients.
                         </p>
                     </div>
                     <div className="skill-img-box">
@@ -302,25 +293,27 @@ function Skills() {
                         <Image src={Skill2} alt="People stuck in a problem" />
                     </div>
                     <div className="skill-text-box">
-                        <p className="skill-title">Problem-Solving</p>
+                        <p className="skill-title">Résolution de Problèmes</p>
                         <p className="skill-text">
-                            I thrive on tackling challenges head-on and finding
-                            creative solutions to complex problems.
-                            Troubleshooting and debugging are second nature to
-                            me, ensuring smooth and error-free applications.
+                            Je prospère en affrontant les défis de front et en
+                            trouvant des solutions créatives à des problèmes
+                            complexes. Le dépannage et la résolution de
+                            problèmes font partie de ma nature, garantissant des
+                            applications fluides et sans erreurs.
                         </p>
                     </div>
                 </div>
                 <div className="skill">
                     <div className="skill-text-box">
-                        <p className="skill-title">Consultation And Advice</p>
+                        <p className="skill-title">Consultation et Conseils</p>
                         <p className="skill-text">
-                            Not sure where to start with your web project?
-                            I&apos;m here to help! I provide expert advice and
-                            consultation on all things web development. Whether
-                            it&apos;s technology choices, design decisions, or
-                            overall strategy, I&apos;ll guide you through every
-                            step of the process.
+                            Vous ne savez pas par où commencer avec votre projet
+                            web ? Je suis là pour vous aider ! Je fournis des
+                            conseils d&apos;expert et une consultation sur tous
+                            les aspects du développement web. Que ce soit le
+                            choix des technologies, les décisions de design ou
+                            la stratégie globale, je vous guiderai à travers
+                            chaque étape du processus.
                         </p>
                     </div>
                     <div className="skill-img-box">
@@ -337,21 +330,23 @@ function Contact() {
             <div className="section-contact">
                 <div className="container">
                     <h2 className="contact-title">
-                        Eager To Collaborate: Bringing Your Vision To Life
-                        Together !
+                        Enthousiaste à Collaborer : Donner Vie à Votre Vision
+                        Ensemble !
                     </h2>
                     <p className="contact-text">
-                        If you&apos;re seeking a proficient web developer to
-                        turn your vision into reality, I&apos;m here to make it
-                        happen. Feel free to Dive into the details of my past
-                        projects, and let&apos;s connect !
+                        Si vous êtes en quête d&apos;un développeur web
+                        compétent pour donner vie à votre vision, je suis à
+                        votre disposition pour réaliser cet objectif.
+                        N&apos;hésitez pas à explorer en profondeur les détails
+                        de mes projets antérieurs, et je vous invite
+                        cordialement à prendre contact avec moi.
                     </p>
                     <div className="contact-cta">
                         <Link
                             className="contact-cta-btn"
                             href="mailto:contact@ezenardr.dev"
                         >
-                            Work with Me
+                            Collaborons
                         </Link>
                         <div className="icons">
                             <Link href="https://wa.me/50940884271">
@@ -406,8 +401,8 @@ function Footer() {
         <footer className="container footer">
             <div className="hr"></div>
             <p className="footer-text">
-                &copy; Copyright 2023 | All rights reserved |{' '}
-                <Link href="/">Français</Link>
+                &copy; Copyright 2023 | Tout droits réservés |{' '}
+                <Link href="/">English</Link>
             </p>
         </footer>
     );
