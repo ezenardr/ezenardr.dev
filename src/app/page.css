@@ -133,6 +133,9 @@ nav {
 .profile-card-mail:hover {
     color: var(--white);
 }
+.image-1 {
+    border-radius: 50%;
+}
 .image-2 {
     position: absolute;
     top: -3.9rem;

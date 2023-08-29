@@ -11,6 +11,7 @@ import Responsive from '../../public/responsive.svg';
 import Maintenance from '../../public/maintenance.svg';
 import Download from '../../public/download.svg';
 import Profile from '../../public/profile.svg';
+import Profile2 from '../../public/profile2.png';
 import Elipse from '../../public/elipse.svg';
 import Check from '../../public/check.svg';
 import Skill1 from '../../public/skill-1.svg';
@@ -35,6 +36,7 @@ export {
     Web,
     Elipse,
     Profile,
+    Profile2,
     Check,
     Skill1,
     Skill2,

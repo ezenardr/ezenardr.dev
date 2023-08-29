@@ -23,6 +23,7 @@ import {
     Mail,
     Twitter,
     GithubBlack,
+    Profile2,
 } from '@/utils/Images';
 import './page.css';
 import Card from '@/components/Card';
@@ -188,12 +189,7 @@ function About() {
         <section className="container section-about">
             <div className="profile-card">
                 <div className="profile-card-img">
-                    <Image className="image-1" src={Elipse} alt="Elipse" />
-                    <Image
-                        className="image-2"
-                        src={Profile}
-                        alt="Profile picture of ezenardr"
-                    />
+                    <Image className="image-1" src={Profile2} alt="Elipse" />
                 </div>
                 <p className="profile-card-name">Rodolphe Ezenard</p>
                 <Link
