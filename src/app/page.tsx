@@ -12,8 +12,6 @@ import {
     Maintenance,
     Responsive,
     Web,
-    Elipse,
-    Profile,
     Check,
     Skill1,
     Skill2,
@@ -57,7 +55,11 @@ function Header() {
                         <Link href="#contact" className="btn-primary">
                             CONTACT
                         </Link>
-                        <Link href="/" className="btn-secondary">
+                        <a
+                            href="/public/cv/CV(en).pdf"
+                            className="btn-secondary"
+                            download
+                        >
                             <div className="cta-secondary">
                                 <Image
                                     src={Download}
@@ -68,7 +70,7 @@ function Header() {
                                 />
                                 <p>Download my CV</p>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className="hero-image-box">
@@ -189,7 +191,11 @@ function About() {
         <section className="container section-about">
             <div className="profile-card">
                 <div className="profile-card-img">
-                    <Image className="image-1" src={Profile2} alt="Elipse" />
+                    <Image
+                        className="image-1"
+                        src={Profile2}
+                        alt="profile picture"
+                    />
                 </div>
                 <p className="profile-card-name">Rodolphe Ezenard</p>
                 <Link

@@ -12,8 +12,6 @@ import {
     Maintenance,
     Responsive,
     Web,
-    Elipse,
-    Profile,
     Check,
     Skill1,
     Skill2,
@@ -23,6 +21,7 @@ import {
     Mail,
     Twitter,
     GithubBlack,
+    Profile2,
 } from '@/utils/Images';
 import '.././page.css';
 import Card from '@/components/Card';
@@ -55,7 +54,11 @@ function Header() {
                         <Link href="#contact" className="btn-primary">
                             CONTACT
                         </Link>
-                        <Link href="/" className="btn-secondary">
+                        <a
+                            href="/public/cv/CV(fr).pdf"
+                            className="btn-secondary"
+                            download
+                        >
                             <div className="cta-secondary">
                                 <Image
                                     src={Download}
@@ -66,7 +69,7 @@ function Header() {
                                 />
                                 <p>Télécharger mon CV</p>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className="hero-image-box">
@@ -172,11 +175,10 @@ function About() {
         <section className="container section-about">
             <div className="profile-card">
                 <div className="profile-card-img">
-                    <Image className="image-1" src={Elipse} alt="Elipse" />
                     <Image
-                        className="image-2"
-                        src={Profile}
-                        alt="Profile picture of ezenardr"
+                        className="image-1"
+                        src={Profile2}
+                        alt="profile picture"
                     />
                 </div>
                 <p className="profile-card-name">Rodolphe Ezenard</p>
