@@ -55,7 +55,7 @@ function Header() {
                             CONTACT
                         </Link>
                         <a
-                            href="/public/cv/CV(fr).pdf"
+                            href="/cv/CV(fr).pdf"
                             className="btn-secondary"
                             download
                         >
