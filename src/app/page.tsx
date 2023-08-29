@@ -408,7 +408,7 @@ function Footer() {
         <footer className="container footer">
             <div className="hr"></div>
             <p className="footer-text">
-                &copy; Copyright 2023 | All rights reserved |{' '}
+                &copy; Copyright 2023 | All rights reserved |
                 <Link href="/fr-FR">Français</Link>
             </p>
         </footer>
