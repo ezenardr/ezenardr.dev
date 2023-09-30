@@ -21,7 +21,7 @@ import {
     Mail,
     Twitter,
     GithubBlack,
-    Profile2,
+    Profile,
 } from '@/utils/Images';
 import '.././page.css';
 import Card from '@/components/Card';
@@ -177,7 +177,7 @@ function About() {
                 <div className="profile-card-img">
                     <Image
                         className="image-1"
-                        src={Profile2}
+                        src={Profile}
                         alt="profile picture"
                     />
                 </div>

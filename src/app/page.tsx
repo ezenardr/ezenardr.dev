@@ -21,7 +21,7 @@ import {
     Mail,
     Twitter,
     GithubBlack,
-    Profile2,
+    Profile,
 } from '@/utils/Images';
 import './page.css';
 import Card from '@/components/Card';
@@ -193,7 +193,7 @@ function About() {
                 <div className="profile-card-img">
                     <Image
                         className="image-1"
-                        src={Profile2}
+                        src={Profile}
                         alt="profile picture"
                     />
                 </div>
@@ -409,7 +409,7 @@ function Footer() {
             <div className="hr"></div>
             <p className="footer-text">
                 &copy; Copyright 2023 | All rights reserved |
-                <Link href="/fr-FR">Français</Link>
+                <Link href="/fr-FR"> Français</Link>
             </p>
         </footer>
     );

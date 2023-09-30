@@ -10,7 +10,7 @@ import Web from '../../public/web.svg';
 import Responsive from '../../public/responsive.svg';
 import Maintenance from '../../public/maintenance.svg';
 import Download from '../../public/download.svg';
-import Profile2 from '../../public/profile2.png';
+import Profile from '../../public/profile.jpg';
 import Check from '../../public/check.svg';
 import Skill1 from '../../public/skill-1.svg';
 import Skill2 from '../../public/skill-2.svg';
@@ -32,7 +32,7 @@ export {
     Maintenance,
     Responsive,
     Web,
-    Profile2,
+    Profile,
     Check,
     Skill1,
     Skill2,
