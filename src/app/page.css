@@ -361,6 +361,9 @@ nav {
         flex-direction: column;
         align-items: center;
     }
+    .image-1 {
+        height: 300px;
+    }
     .contact-title {
         width: 80%;
     }
@@ -503,6 +506,16 @@ nav {
     .btn-nav {
         display: none;
     }
+    .cta-box {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .btn-secondary {
+        width: 100%;
+    }
     .contact-cta {
         flex-direction: column;
         width: 100%;
@@ -546,9 +559,7 @@ nav {
     .hero-text-box h1 {
         font-size: 5rem;
     }
-    .cta-box {
-        flex-direction: column;
-    }
+
     .profile-card-img {
         width: 100%;
         overflow: hidden;
