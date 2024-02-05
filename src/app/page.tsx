@@ -35,13 +35,14 @@ export default function Home() {
           <div className="hero-text-box">
             <Welcome />
             <p>
-              My Name is Rodolphe Ezenard. I'm a Web Developer. I believe that
-              great web development is understanding the end-users, leveraging
-              the latest technologies, and crafting seamless user experiences.
+              My Name is Rodolphe Ezenard. I&apos;m a Web Developer. I believe
+              that great web development is understanding the end-users,
+              leveraging the latest technologies, and crafting seamless user
+              experiences.
               <br /> <br />
               Not sure where to start with your web project? I provide expert
-              advice and consultation. I'll guide you through every step of the
-              process.
+              advice and consultation. I&apos;ll guide you through every step of
+              the process.
             </p>
             <ButtonCta action="mailto:contact@ezenardr.dev">
               Work with me
