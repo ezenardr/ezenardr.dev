@@ -18,7 +18,7 @@ export default function Home() {
     <div className="main-container">
       <main>
         <nav>
-          <Image src={Logo} alt="Logo" width={250} priority />
+          <Image src={Logo} alt="Logo" width={250} priority className="logo" />
           <div className="nav-links">
             <Link href="mailto:contact@ezenardr.dev">
               <Mail className="icon" size={28} />

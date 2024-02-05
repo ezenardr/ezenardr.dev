@@ -3,8 +3,17 @@
   align-items: center;
   height: 100vh;
 }
+@media (max-width: 768px) {
+  .logo {
+    width: 200px;
+  }
+}
 main {
+  width: 100vw;
+  max-width: var(--container-xl);
+  margin-inline: auto;
   height: 100vh;
+  overflow-x: hidden;
   max-height: 791px;
 }
 nav {
@@ -139,7 +148,7 @@ h2 {
 
 .overlay {
   position: fixed;
-  width: 98vw;
+  width: 100vw;
   height: 100vh;
   top: 0;
   backdrop-filter: blur(11px);
@@ -160,7 +169,7 @@ h2 {
   position: fixed;
   padding: var(--padding-xs);
   bottom: 0;
-  width: 99vw;
+  width: 100vw;
   margin-inline: auto;
   height: auto;
   background-color: #21242a;
