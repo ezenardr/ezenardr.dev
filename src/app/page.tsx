@@ -52,7 +52,7 @@ export default function Home() {
             <h2 className="projects">Projects</h2>
             {projects.map(({ title, image, description, link, github }) => (
               <div key={title}>
-                <Drawer.Root shouldScaleBackground>
+                <Drawer.Root>
                   <Drawer.Trigger asChild>
                     <div className="project-link-box">
                       <ChevronRight className="link-icon" size={24} />
