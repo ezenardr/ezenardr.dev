@@ -139,10 +139,9 @@ h2 {
 
 .overlay {
   position: fixed;
+  width: 98vw;
+  height: 100vh;
   top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   backdrop-filter: blur(11px);
 }
 .encoche {
@@ -160,9 +159,9 @@ h2 {
   align-items: center;
   position: fixed;
   padding: var(--padding-xs);
-  right: 0;
   bottom: 0;
-  left: 0;
+  width: 99vw;
+  margin-inline: auto;
   height: auto;
   background-color: #21242a;
 }
