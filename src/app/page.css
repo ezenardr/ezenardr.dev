@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   height: 100vh;
+  width: 100vw;
+  max-width: var(--container-xl);
 }
 @media (max-width: 768px) {
   .logo {
@@ -58,21 +60,14 @@ header {
   border-left: 5px solid var(--color-primary);
   border-radius: 11px;
   opacity: 0;
-  animation: 0.8s fadeInUp ease forwards 2s;
+  animation: 0.8s fadeInUp ease forwards 1.5s;
   user-select: none;
-}
-.cta-primary {
-  padding: 1rem 1.8rem;
-  background-color: var(--color-primary);
-  border-radius: 7px;
-  opacity: 0;
-  animation: 0.8s fadeInUp ease forwards 4s;
 }
 .projects {
   font-weight: 200;
   margin-bottom: var(--padding-sm);
   opacity: 0;
-  animation: 0.8s fadeInUp ease forwards 4s;
+  animation: 0.8s fadeInUp ease forwards 2s;
 }
 h2 {
   font-weight: 200;
@@ -85,7 +80,7 @@ h2 {
   transition: 0.3s all ease;
   margin-bottom: 2rem;
   opacity: 0;
-  animation: 0.8s fadeInUp ease forwards 4.3s;
+  animation: 0.8s fadeInUp ease forwards 2.1s;
 }
 .project-link-box:hover {
   transform: translateX(2%);
@@ -151,6 +146,8 @@ h2 {
   width: 100vw;
   height: 100vh;
   top: 0;
+  left: 0;
+  right: 0;
   backdrop-filter: blur(11px);
 }
 .encoche {
@@ -169,6 +166,8 @@ h2 {
   position: fixed;
   padding: var(--padding-xs);
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100vw;
   margin-inline: auto;
   height: auto;

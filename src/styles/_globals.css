@@ -62,6 +62,9 @@ h4,
   line-height: 1.15;
   margin-bottom: 0.6em;
 }
+p {
+  font-size: clamp(1.6rem, 3vw + 1rem, 1.8rem);
+}
 
 p,
 li {
