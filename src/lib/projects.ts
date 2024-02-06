@@ -39,7 +39,6 @@ export const projects: Array<TProjects> = [
     image: ImgQMAB,
     description:
       "This blog is your go-to destination for an enriching and dynamic journey into the ever-evolving realm of personal aesthetics.",
-    github: "https://github.com/ezenardr/quimonteabord.com.git",
     link: "https://quimonteabord.com",
   },
 ];
