@@ -1,6 +1,7 @@
 import ImgQMAB from "@/img/quimonteabord.webp";
 import ImgWenshair from "@/img/wenshair.webp";
 import ImgWhereInTheWorld from "@/img/whereInTheWorld.webp";
+import ImgAddressTracker from "@/img/ip-tracker.jpg";
 import { StaticImageData } from "next/image";
 type TProjects = {
   title: string;
@@ -24,6 +25,14 @@ export const projects: Array<TProjects> = [
       "Where In The World is your premier destination for unlocking a wealth of information about countries around the world. Our user-friendly and comprehensive Rest Countries API website provides developers, researchers, and enthusiasts with a powerful tool to access up-to-date and detailed data on nations across the globe.",
     github: "https://github.com/ezenardr/where-in-the-world.git",
     link: "https://restcountries.ezenardr.dev/",
+  },
+  {
+    title: "IP Address Tracker",
+    image: ImgAddressTracker,
+    description:
+      "Track and locate the geographical location of any IP address instantly with our powerful and user-friendly IP address tracker web app. Discover detailed information including country, city, region, ISP, and more, providing invaluable insights for network administration, cybersecurity, and targeted marketing strategies.",
+    github: "https://github.com/ezenardr/IP-Address-Tracker.git",
+    link: "https://iptracker.ezenardr.dev/",
   },
   {
     title: "Qui Monte à Bord",
