@@ -36,6 +36,11 @@ const Layout = ({ children }) => {
         />
 
         <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+        <link rel={'icon'} type={'image/ico'} href={'favicon.ico'} />
+        <meta property={'og:title'} content={'Rodolphe E. - Personal Portfolio'} />
+        <meta property={'og:image'} content={'https://ezenardr.dev/opengraph.png'}/>
+        <meta property={'og:url'} content={'https://ezenardr.dev'}/>
+        <meta property={'og:description'} content={'Not sure where to start with your web project? I provide expert advice and consultation. I\'ll guide you through every step of the process.'} />
       </Head>
       <Preloader />
       {/*<Switcher />*/}
